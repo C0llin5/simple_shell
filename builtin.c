@@ -79,7 +79,6 @@ exit(num);
 * shellby_cd - Changes the current directory of the shellby process.
 * @args: An array of arguments.
 * @front: A double pointer to the beginning of args.
-*
 * Return: If the given string is not a directory - 2.
 *         If an error occurs - -1.
 *         Otherwise - 0.
@@ -149,7 +148,6 @@ free(pwd);
 free(dir_info);
 return (0);
 }
-
 /**
 * shellby_help - Displays information about shellby builtin commands.
 * @args: An array of arguments.
